@@ -1,1 +1,10 @@
 <!-- Create your form here -->
+<!DOCTYPE html>
+<html>
+<%form_for @student do |f|%>
+<%=f.label :first_name%>
+<%= f.text_field :first_name%>
+<%= f.text_field :last_name %>
+<%end%>
+<h1>SOME TEST TEXT</h1>
+</html>
