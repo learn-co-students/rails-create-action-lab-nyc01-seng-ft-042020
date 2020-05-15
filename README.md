@@ -1,11 +1,11 @@
 # Create Action Lab
 
-1. Build a working `create` action
+# 1. Build a working `create` action
 2. Use a `form_tag` to create a new form that submits to the `index` action
 3. Correctly name form fields so that they end up at the top level of the `params` hash
 4. Assign data from `params` to a `Student` object in the `create` action
 5. Save that `Student` object in the `create` action
-6. Create a `redirect_to` from the `create` action to the `show` action
+# 6. Create a `redirect_to` from the `create` action to the `show` action
 
 
 ## Instructions
