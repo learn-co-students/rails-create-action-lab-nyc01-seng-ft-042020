@@ -1,1 +1,13 @@
 <!-- Create your form here -->
+<h1> Student Form</h1>
+
+<%= form_for @student do |f| %>
+    <%= f.label "First Name" %><br>
+    <input type="text" id="first_name" name="first_name"><br>
+    <br>
+    <%= f.label "Last Name" %><br>
+    <input type="text" id="last_name" name="last_name"><br>
+
+
+    <input type="submit" value="Submit Student">
+<% end %>
